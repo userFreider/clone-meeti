@@ -1,0 +1,17 @@
+
+//Personalizar o Reescribir variables colores en Boostrap
+$rojo: #f34f51;
+$verder: #0098AE;
+$oscuro: #212121;
+
+
+//asignar paleta de colores a Bootstrap
+$primary:$rojo;
+$success:$verder;
+$dark:$oscuro;
+
+$display-font-weight:400;
+
+
+//Importar Bootstrap
+@import '../../node_modules/bootstrap//scss/bootstrap.scss';
