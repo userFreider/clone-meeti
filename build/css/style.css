@@ -4289,7 +4289,7 @@ textarea.form-control-lg {
   --bs-card-title-color: ;
   --bs-card-subtitle-color: ;
   --bs-card-border-width: var(--bs-border-width);
-  --bs-card-border-color: var(--bs-border-color-translucent);
+  --bs-card-border-color: transparent;
   --bs-card-border-radius: var(--bs-border-radius);
   --bs-card-box-shadow: ;
   --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
@@ -11860,8 +11860,25 @@ textarea.form-control-lg {
     padding-bottom: 10rem;
   }
 }
-.header .logo {
+
+.logo {
   width: 10rem;
+}
+
+.eventos .card :hover {
+  cursor: pointer;
+}
+.eventos .card img {
+  border-radius: 0.5rem;
+}
+.eventos .fecha {
+  color: #877457;
+}
+
+.footer .text__left p {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
